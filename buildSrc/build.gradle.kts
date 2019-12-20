@@ -5,3 +5,7 @@ plugins {
 repositories {
     jcenter()
 }
+
+dependencies {
+    implementation(kotlin("gradle-plugin"))
+}
